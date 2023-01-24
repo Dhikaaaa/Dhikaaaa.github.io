@@ -9,6 +9,9 @@
     <!-- Unicons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -505,6 +508,66 @@
       </section>
 
       <!-- Portfolio -->
+      <section class="section portfolio" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <span class="section-subtitle">Most recent work</span>
+
+        <div class="portfolio-container container grid swiper">
+          <div class="swiper-wrapper">
+            <!-- Portfolio 1 -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="assets/img/portfolio.png" alt="portfolio" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Portfolio 1</h3>
+                <p class="portfolio-description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                <a href="#" class="button button-flex button-small portfolio-button">
+                  Demo
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio 2 -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="assets/img/portfolio.png" alt="portfolio" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Portfolio 2</h3>
+                <p class="portfolio-description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                <a href="#" class="button button-flex button-small portfolio-button">
+                  Demo
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio 3 -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="assets/img/portfolio.png" alt="portfolio" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Portfolio 3</h3>
+                <p class="portfolio-description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                <a href="#" class="button button-flex button-small portfolio-button">
+                  Demo
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!-- Contact -->
     </main>
@@ -512,7 +575,8 @@
 
     <!-- Scrool Top -->
 
-    <!-- Sweeper JS -->
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
