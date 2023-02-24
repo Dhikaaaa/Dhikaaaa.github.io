@@ -12,6 +12,9 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -71,7 +74,7 @@
               </a>
             </div>
 
-            <div class="home-img">
+            <div class="home-img" data-aos="fade-left" data-aos-duration="500">
               <svg class="home-blob" viewBox="35 25 140 140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <mask id="mask" mask-type="alpha">
                   <path
@@ -89,7 +92,7 @@
               </svg>
             </div>
 
-            <div class="home-data">
+            <div class="home-data" data-aos="fade-right" data-aos-duration="550">
               <h1 class="home-title">Hi I'm Dhikaa</h1>
               <h3 class="home-subtitle">Fullstack Web Developer</h3>
               <p class="home-description">a little skilled and a lot to learn, producing quality work</p>
@@ -109,13 +112,13 @@
 
       <!-- About -->
       <section class="section about" id="about">
-        <h2 class="section-title">About Me</h2>
-        <span class="section-subtitle">My Introduction</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">About Me</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="350">My Introduction</span>
 
         <div class="about-container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about-image" />
+          <img src="assets/img/about.jpg" alt="" class="about-image" data-aos="fade-right" data-aos-duration="500" />
 
-          <div class="about-data">
+          <div class="about-data" data-aos="fade-left" data-aos-duration="500">
             <p class="about-description">Web Developer and Freelancer who keeps learning</p>
             <div class="about-info">
               <div>
@@ -144,7 +147,7 @@
             </div>
 
             <div class="about-buttons">
-              <a download="" href="#" class="button button-flex"> Download CV <i class="uil uil-download-alt button-icon"></i> </a>
+              <a download="" href="assets/pdf/cv.pdf" class="button button-flex"> Download CV <i class="uil uil-download-alt button-icon"></i> </a>
             </div>
           </div>
         </div>
@@ -152,8 +155,8 @@
 
       <!-- Skills -->
       <section class="section skills" id="skills">
-        <h2 class="section-title">Skills</h2>
-        <span class="section-subtitle">My technical level</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">Skills</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="350">My technical level</span>
 
         <div class="skills-container container grid">
           <div>
@@ -308,10 +311,10 @@
 
       <!-- Qualification -->
       <section class="section qualification">
-        <h2 class="section-title">Qualification</h2>
-        <span class="section-subtitle">My personal journey</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">Qualification</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="450">My personal journey</span>
 
-        <div class="qualification-container container">
+        <div class="qualification-container container" data-aos="zoom-in" data-aos-duration="500">
           <div class="qualification-tabs">
             <div class="qualification-button button-flex qualification-active" data-target="#education">
               <i class="uil uil-graduation-cap qualification-icon"></i>
@@ -422,12 +425,12 @@
 
       <!-- Services -->
       <section class="section services" id="services">
-        <h2 class="section-title">Services</h2>
-        <span class="section-subtitle">What i offer</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">Services</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="450">What i offer</span>
 
         <div class="services-container container grid">
           <!-- Services 1 -->
-          <div class="services-content">
+          <div class="services-content" data-aos="flip-up" data-aos-duration="500">
             <div>
               <i class="uil uil-web-grid services-icon"></i>
               <h3 class="services-title">Front End <br />Developer</h3>
@@ -466,7 +469,7 @@
           </div>
 
           <!-- Services 2 -->
-          <div class="services-content">
+          <div class="services-content" data-aos="flip-up" data-aos-duration="500">
             <div>
               <i class="uil uil-arrow services-icon"></i>
               <h3 class="services-title">Back End <br />Developer</h3>
@@ -508,10 +511,10 @@
 
       <!-- Portfolio -->
       <section class="section portfolio" id="portfolio">
-        <h2 class="section-title">Portfolio</h2>
-        <span class="section-subtitle">Most recent work</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">Portfolio</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="450">Most recent work</span>
 
-        <div class="portfolio-container container grid swiper">
+        <div class="portfolio-container container grid swiper" data-aos="fade-up" data-aos-duration="550">
           <div class="swiper-wrapper">
             <!-- Portfolio 1 -->
             <div class="portfolio-content grid swiper-slide">
@@ -569,7 +572,7 @@
       </section>
 
       <!-- Project in Mind -->
-      <section class="section project">
+      <section class="section project" data-aos="zoom-in" data-aos-duration="500">
         <div class="project-bg">
           <div class="project-container container grid">
             <div class="project-data">
@@ -587,10 +590,10 @@
 
       <!-- Testimonial -->
       <section class="section testimonial">
-        <h2 class="section-title">Testimonial</h2>
-        <span class="section-subtitle">My client saying</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">Testimonial</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="450">My client saying</span>
 
-        <div class="testimonial-container container swiper">
+        <div class="testimonial-container container swiper" data-aos="zoom-out-up" data-aos-duration="500">
           <div class="swiper-wrapper">
             <!-- Testimonial 1 -->
             <div class="testimonial-content swiper-slide">
@@ -673,11 +676,11 @@
 
       <!-- Contact -->
       <section class="section contact" id="contact">
-        <h2 class="section-title">Contact Me</h2>
-        <span class="section-subtitle">Get in touch</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="400">Contact Me</h2>
+        <span class="section-subtitle" data-aos="fade-up" data-aos-duration="450">Get in touch</span>
 
         <div class="contact-container container grid">
-          <div>
+          <div data-aos="fade-right" data-aos-duration="500">
             <div class="contact-information">
               <i class="uil uil-phone contact-icon"></i>
               <div>
@@ -703,7 +706,7 @@
             </div>
           </div>
 
-          <form action="" class="contact-form grid">
+          <form action="" class="contact-form grid" data-aos="fade-left" data-aos-duration="500">
             <div class="contact-inputs grid">
               <div class="contact-content">
                 <label for="" class="contact-label">Name</label>
@@ -771,6 +774,9 @@
 
     <!-- Swiper JS -->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
