@@ -184,7 +184,7 @@ img {
 
 /* Nav */
 .nav {
-  max-width: 968px;
+  max-width: 768px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -900,6 +900,68 @@ img {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+/* Portfolio Detail */
+.portfolio-image {
+  width: 500px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.portfolio-detail-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-2-5);
+}
+
+.portfolio-detail-info-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.portfolio-detail-info-name {
+  font-size: var(--smaller-font-size);
+}
+
+.portfolio-detail-info-title,
+.portfolio-detail-info-name {
+  display: block;
+  text-align: center;
+}
+
+.portfolio-detail-description {
+  margin-bottom: var(--mb-2-5);
+}
+
+.portfolio-detail-description-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio-detail-description-name {
+  font-size: var(--smaller-font-size);
+  margin-bottom: var(--mb-2);
+}
+
+.portfolio-detail-description-title,
+.portfolio-detail-description-name {
+  display: block;
+  text-align: justify;
+}
+
+.portfolio-tech {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-image-tech {
+  height: 5rem;
+  width: auto;
 }
 
 /* Footer */
