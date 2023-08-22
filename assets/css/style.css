@@ -184,7 +184,7 @@ img {
 
 /* Nav */
 .nav {
-  max-width: 768px;
+  max-width: 968px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -233,7 +233,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: small;
+  font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -954,14 +954,22 @@ img {
   text-align: justify;
 }
 
-.portfolio-tech {
+.portfolio-detail-tech {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: var(--mb-2);
 }
 
-.portfolio-image-tech {
-  height: 5rem;
+.portfolio-detail-tech-image {
+  height: 4rem;
   width: auto;
+}
+
+.portfolio-detail-preview-image {
+  width: 15rem;
+  border-radius: 0.5rem;
+  justify-self: center;
 }
 
 /* Footer */
@@ -1301,6 +1309,10 @@ img {
     align-items: center;
   }
 
+  .portfolio-detail-preview-image {
+    width: 25rem;
+  }
+
   .project {
     text-align: initial;
   }
@@ -1370,6 +1382,10 @@ img {
 
   .portfolio-content {
     column-gap: 5rem;
+  }
+
+  .portfolio-detail-preview-image {
+    width: 100%;
   }
 
   .swiper-portfolio-icon {
